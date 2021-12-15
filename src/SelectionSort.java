@@ -123,7 +123,7 @@ public class SelectionSort {
 	 
 	 public static int[] selectionSort4 (int[] list) {
 		 int outerLoopIterations = 0;
-	     int innerLoopIterations = 0;
+	     	 int innerLoopIterations = 0;
 	        
 		 int lowestValue = 0;
 		 int indexOfLowestValue = 0;
@@ -150,7 +150,7 @@ public class SelectionSort {
 		 }
 		 
 		 System.out.println("\nOUTER LOOP ITERATIONS: " + outerLoopIterations);
-	     System.out.println("INNER LOOP ITERATIONS: " + innerLoopIterations);
+	     	 System.out.println("INNER LOOP ITERATIONS: " + innerLoopIterations);
 		 
 		 return list;
 	 }
