@@ -13,8 +13,8 @@ public class SelectionSort {
 		
         selectionSort4(testArr);
         
-        for(int gowno:testArr){  
-            System.out.print(gowno+" ");  
+        for(int value:testArr){  
+            System.out.print(value+" ");  
         } 
 		
 		
@@ -23,8 +23,8 @@ public class SelectionSort {
 	public static void selectionSort(int[] dataArr) {
 
 		System.out.println("Before Selection Sort");  
-        for(int gowno:dataArr){  
-            System.out.print(gowno+" ");  
+        for(int value:dataArr){  
+            System.out.print(value+" ");  
         } 
         System.out.println("");
         
@@ -94,7 +94,7 @@ public class SelectionSort {
 	 public static int[] selectionSort3 (int[] list) {
 		 
 		 	int outerLoopIterations = 0;
-	        int innerLoopIterations = 0;
+	        	int innerLoopIterations = 0;
 		 
 		 
 			int i, j, minValue, minIndex, temp = 0;
